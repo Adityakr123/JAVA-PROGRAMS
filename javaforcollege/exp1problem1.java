@@ -14,3 +14,4 @@ public class exp1problem1 {
         System.out.println(a%10); 
     }
 }
+

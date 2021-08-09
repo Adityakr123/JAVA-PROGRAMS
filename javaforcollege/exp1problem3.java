@@ -1,16 +1,18 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class exp1problem3 {
-    public static void main(String[] args){
-        Scanner obj =new Scanner (System.in);
-        System.out.println("Enter number"); 
-        int a =obj.nextInt();
+    public static void main(String[] args) {
+        int x,y=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number : ");
         
-        System.out.println("Enter kth value"); 
-        int k =obj.nextInt();
-        for(int i=0;i<k-1;i++)
-        {
-            a=a/10;
+        x= sc.nextInt();
+        sc.close();
+
+        while(x>99){
+            y=x%100;
+            x=x/10;
         }
-        System.out.println(a%10); 
+        System.out.println("Second digit of the number is : "+y);
     }
 }
