@@ -37,16 +37,16 @@ class Dog{
 public class firstclass {
     public static void main(String[] args)
     {
-        // Cat cat1=new Cat(); //making a object of class cat
-        // cat1.legs=4;
-        // cat1.eyes=2;//putting values in variables
-        // cat1.walk();//function calling
-        // Cat cat2=new Cat();
-        // cat2.legs=4;
-        // cat2.eyes=2;
-        // cat2.eat();//function calling
-        // cat1.discription();//function calling 
-        // cat2.discription();
+        Cat cat1=new Cat(); //making a object of class cat
+        cat1.legs=4;
+        cat1.eyes=2;//putting values in variables
+        cat1.walk();//function calling
+        Cat cat2=new Cat();
+        cat2.legs=5;
+        cat2.eyes=11;
+        cat2.eat();//functio  n calling
+        cat1.discription();//function calling 
+        cat2.discription();
         Dog dog1=new Dog();
         Dog dog2=new Dog();
         dog1.name="shero";
