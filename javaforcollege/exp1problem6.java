@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class exp1problem6{
     public static void main(String[] args) {
-        int x,y,sum=0;
+        int x,y,pro=1;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number 1 : ");
@@ -12,12 +12,10 @@ public class exp1problem6{
 
         sc.close();
 
-        while(x!=0){
-
-            sum+= (x%10)*(y%10);
-            x/=10;
-            y/=10;
+        for(int i=0;i<y;i++)
+        {
+            pro=pro*x;
         }
-        System.out.println("The sum of profuct of corresponding digits of the given numbers : "+sum);
+        System.out.println("The sum of profuct of corresponding digits of the given numbers : "+pro);
     }
 }
