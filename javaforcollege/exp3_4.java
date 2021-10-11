@@ -19,9 +19,13 @@ public class exp3_4 {
 		int y=4;
 		int z=3;
 		
-		//int result=fun(x);
-		//int result=fun(x,y);
-		int result=fun(x,y,z);
-		System.out.println(result);
+		int result1=fun(x);
+		int result2=fun(x,y);
+		int result3=fun(x,y,z);
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+
+
 	}
 }

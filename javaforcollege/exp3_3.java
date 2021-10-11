@@ -15,7 +15,8 @@ public class exp3_3 {
 		int y=5;
         
 		int result=fun(x);
-		//int result=fun(x,y);
+		int result1=fun(x,y);
 		System.out.println(result);
+		System.out.println(result1);
 	}
 }
