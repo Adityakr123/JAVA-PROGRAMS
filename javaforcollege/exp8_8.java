@@ -1,10 +1,11 @@
 import java.lang.*;
 import java.io.*; 
 import java.io.IOException;
-
 class exp8_8
-{  public static void main(String args[])
-   { String a,b,c;
+{   
+    public static void main(String args[])
+    { 
+        String a,b,c;
      try
      { 
         DataInputStream o=new DataInputStream(System.in);
@@ -17,7 +18,6 @@ class exp8_8
         for(int i=0;i<a.length();i++){
             if(ch[i]=='x')
             {
-                
                 count++;
             }
             
@@ -25,7 +25,7 @@ class exp8_8
                 System.out.println(i);
                 break;
             }
-            
+        
         }
         
      }

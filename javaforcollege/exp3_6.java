@@ -4,7 +4,7 @@ import java.lang.Math;
 public class exp3_6 {
 	
 	public static float power(float x,int n) {
-		float result=(float) (Math.pow(x, n));
+		float result=(float) (Math.pow(x, n)); 
 		return(result);
 	}
 	
@@ -18,7 +18,6 @@ public class exp3_6 {
 		
 		System.out.println("Enter n");
 		int n=sc.nextInt();
-		
 		System.out.println("Enter X");
 		float X=sc.nextFloat();
 		
